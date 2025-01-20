@@ -1,0 +1,141 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content{
+  margin: 20px 20px;
+}
+
+h2 {
+
+  background: linear-gradient(135deg, #ff7eb3, #ff758c, #ff6a88);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  color: transparent;
+  /* color: #ff6a88; */
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+
+/* Style for the list items */
+li {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between text and buttons */
+  align-items: center; /* Center vertically */
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+/* Style for the button group */
+li div {
+  display: flex; /* Use flexbox for the button group */
+  gap: 10px; /* Add spacing between the buttons */
+}
+
+
+button {
+  font-family: 'Poppins', sans-serif;
+  margin: 15px 0;
+  padding: 12px 25px;
+  background: #fff; /* Keep the solid background color */
+  /* color: #ff6a88; */
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  /* Gradient text */
+  background-image: linear-gradient(135deg, #ff6a88, #ff99a9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+button:hover {
+  color: #fff; /* Fallback text color for older browsers */
+  -webkit-text-fill-color: #fff; /* Text color becomes white */
+  -webkit-background-clip: border-box; /* Disable gradient text on hover */
+  /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); */
+
+
+  background: linear-gradient(135deg, #ff6a88, #ff99a9);
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+}
+
+
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border: none;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.3);
+  color: black;
+  font-size: 16px;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* original react css */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

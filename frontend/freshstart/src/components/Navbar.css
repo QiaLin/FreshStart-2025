@@ -1,0 +1,100 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c, #ff6a88);
+    padding: 15px 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Navbar logo */
+.navbar-logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-logo:hover {
+    transform: rotate(-5deg) scale(1.1);
+}
+
+/* Navbar menu */
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar menu items */
+.navbar-menu li {
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar menu item hover effect */
+.navbar-menu li:hover {
+    color: #000;
+    background: #fff;
+    transform: scale(1.15);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+}
+
+/* Navbar active menu item */
+.navbar-menu li.active {
+    color: #ff6a88;
+    font-weight: bold;
+    background: #fff;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+}
+
+/* Hover animation for active effect */
+.navbar-menu li::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 4px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-menu li:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
