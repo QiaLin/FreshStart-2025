@@ -31,7 +31,6 @@ pip install flask flask-cors
     flask: The core framework for building your backend.
     flask-cors: A library to handle Cross-Origin Resource Sharing (CORS) if you're running the frontend and backend on different ports.
 
-You may need additional dependencies based on your project needs, such as database drivers, authentication packages, etc.
 Step 3: Set Up Flask
 
 run the python file in backend folder using command line in WINDOWS/any system run python.
@@ -41,6 +40,8 @@ Step 4: Verify the Backend
 
 Test the backend by accessing its endpoints through Postman, a browser, or by connecting it with the frontend. Ensure it’s working as expected before proceeding.
 3. Set Up the Frontend (React)
+
+
 Step 1: Install Node.js Dependencies
 
 Navigate to the frontend folder and install the required JavaScript dependencies using npm:
@@ -49,6 +50,7 @@ cd ../frontend/freshstart  # Navigate to the frontend folder
 npm install  # Install the required npm packages
 
 This will install the necessary React dependencies and any libraries defined in the package.json file.
+
 Step 2: Start the React Development Server
 
 Start the React development server using the following command:
@@ -65,6 +67,7 @@ By default, this will start the React app on http://localhost:3000/.
     Frontend:
         To run the React frontend, use npm start in the frontend folder.
         React will automatically refresh when you save changes to frontend code.
+## ONLY ONE COMMAND WINDOW FOR BACKEND PYTHON FLASK AND THE OTHER FOR FRONTEND REACT 
 
 5. Additional Tips
 
