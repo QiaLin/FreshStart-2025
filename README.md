@@ -47,6 +47,7 @@ Step 1: Install Node.js Dependencies
 Navigate to the frontend folder and install the required JavaScript dependencies using npm:
 
 cd ../frontend/freshstart  # Navigate to the frontend folder
+
 npm install  # Install the required npm packages
 
 This will install the necessary React dependencies and any libraries defined in the package.json file.
