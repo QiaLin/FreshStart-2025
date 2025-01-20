@@ -38,7 +38,7 @@ run the python file in backend folder using command line in WINDOWS/any system r
 By default, this will start the server at http://127.0.0.1:5000/.
 Step 4: Verify the Backend
 
-Test the backend by accessing its endpoints through Postman, a browser, or by connecting it with the frontend. Ensure it’s working as expected before proceeding.
+
 3. Set Up the Frontend (React)
 
 
