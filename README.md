@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/e3a4ef84-8482-4a23-843d-bc1b68f0a97c)
+
 Prerequisites
 
 Ensure the following tools are installed on your machine:
